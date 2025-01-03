@@ -219,18 +219,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilo del popup */
 .popup-container {
     display: none;
@@ -243,6 +231,7 @@ header {
     z-index: 1000;
     justify-content: center;
     align-items: center;
+    padding: 20px; /* Para evitar que el contenido toque los bordes en dispositivos pequeños */
 }
 
 /* Contenido del popup */
@@ -253,6 +242,9 @@ header {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
+    width: 90%; /* Ajuste responsivo */
+    max-width: 500px; /* Tamaño máximo para PC */
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
 }
 
 /* Botón de cierre */
@@ -263,6 +255,8 @@ header {
     font-size: 24px;
     cursor: pointer;
     color: #000;
+    background: none;
+    border: none;
 }
 
 /* Enlace para abrir el popup */
@@ -272,12 +266,19 @@ header {
     text-decoration: underline;
 }
 
+/* Estilo responsivo adicional */
+@media (max-width: 768px) {
+    .popup-content {
+        width: 95%; /* Más espacio en pantallas pequeñas */
+    }
+}
 
-
-
-
-
-
-
-
-
+@media (max-width: 480px) {
+    .popup-content {
+        font-size: 14px; /* Tamaño de fuente reducido para pantallas pequeñas */
+        padding: 15px; /* Ajustar padding en móviles */
+    }
+    .close-btn {
+        font-size: 20px; /* Botón de cierre más pequeño */
+    }
+}
