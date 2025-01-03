@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+
+<body>
+    <header>
+        <h1>💻 Software y Herramientas 🙏</h1>
+        <p>Programador Cristiano</p>
+    </header>
+
+    <center>
+        <div class="product-card" id="tooluno">
+            <h3>AutoPost Grupos De Facebook</h3>
+            <img src="img1.jpg" alt="autopostfb">
+            <h5>Características del software:</h5>
+            <ul>
+                <li>
+                    <b>1. 🌐 Extrae Grupos de FB:</b>
+                    Permite extraer automáticamente diferentes grupos de Facebook donde el usuario este unido.
+                </li>
+                <li>
+                    <b>2. 🔑 Inicio de Sesión:</b>
+                    Inicia sesión en Facebook utilizando credenciales almacenadas de forma segura.
+                </li>
+                <li>
+                    <b>3. 📄 Lectura de Archivos:</b>
+                    Lee enlaces de grupos desde un archivo de texto (grupos.txt).
+                </li>
+                <li>
+                    <b>4. 📝 Publicación de Mensajes:</b>
+                    Publica mensajes predefinidos en los grupos seleccionados.
+                </li>
+                <li>
+                    <b>5. ⏳ Esperas Personalizadas:</b>
+                    Incluye pausas programadas para evitar bloqueos y asegurar que las publicaciones se realicen
+                    correctamente.
+                </li>
+                <li>
+                    <b>6. ⚠️ Manejo de Errores:</b>
+                    Captura y maneja errores durante la ejecución, permitiendo continuar con otros grupos si ocurre un
+                    problema.
+                </li>
+                <li>
+                    <b>7. ✅ Confirmación de Éxito:</b>
+                    Muestra un mensaje de éxito en la consola después de cada publicación exitosa.
+                </li>
+                <li>
+                    <b>8. 👁️ Interfaz Visual:</b>
+                    Utiliza Puppeteer para interactuar con la interfaz de Facebook de manera visual (modo no
+                    encubierto).
+                </li>
+
+
+                <li>
+                    <b>9. ▶️ Ver Video Tutorial:</b>
+                    <span class="video-link" onclick="openPopup1()">Modo de Uso y de instalación.</span>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="popup-container" id="videoPopup">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <iframe id="youtubeVideo" width="560" height="315" src="" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+        </div>
+
+
+        <div class="product-carddos" id="tooldos">
+            <h3>Gestor de Grupos de Telegram</h3>
+            <img src="telegram_tool.jpg" alt="Gestor de Telegram">
+            <h5>Características del software:</h5>
+            <ul>
+                <li>
+                    <b>1. 📱 Interacción con Telegram:</b>
+                    Permite conectarse a la API de Telegram para gestionar grupos y usuarios.
+                </li>
+                <li>
+                    <b>2. 👥 Obtención de Miembros:</b>
+                    Extrae la lista de miembros activos de un grupo específico.
+                </li>
+                <li>
+                    <b>3. 🕒 Filtrado por Actividad:</b>
+                    Solo guarda usuarios que han estado activos en los últimos 8 días.
+                </li>
+                <li>
+                    <b>4. 📝 Guardado en Archivo:</b>
+                    Los usuarios activos se guardan en un archivo de texto para su posterior uso.
+                </li>
+                <li>
+                    <b>5. ➕ Agregar Miembros:</b>
+                    Permite agregar usuarios desde un archivo a un grupo de Telegram.
+                </li>
+                <li>
+                    <b>6. ⏳ Control de Tiempo:</b>
+                    Implementa pausas entre adiciones de usuarios para evitar restricciones de la API.
+                </li>
+                <li>
+                    <b>7. ⚠️ Manejo de Errores:</b>
+                    Captura y maneja errores comunes, como usuarios ya miembros o restricciones de privacidad.
+                </li>
+                <li>
+                    <b>8. 🔄 Uso de Librerías:</b>
+                    Utiliza librerías como Telethon y Pyrogram para facilitar la interacción con Telegram.
+                </li>
+                <li>
+                    <b>9. ▶️ Ver Video Tutorial:</b>
+                    <span class="video-link" onclick="openPopup2()">Modo de Uso y de Instalación.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="popup-container" id="videoPopup">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <iframe id="youtubeVideo" src="" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="product-cardtres" id="tooltres">
+            <h3>AutoPost WhatsApp</h3>
+            <img src="img3.jpg" alt="autopostwhatsapp">
+            <h5>Características del software:</h5>
+            <ul>
+                <li>
+                    <b>1. 📱 Integración con WhatsApp:</b>
+                    Permite enviar mensajes personalizados a través de la API de WhatsApp, facilitando la comunicación
+                    directa con los clientes.
+                </li>
+                <li>
+                    <b>2. 📊 Lectura de Archivos Excel:</b>
+                    Capacidad para leer datos de archivos Excel, lo que permite importar fácilmente listas de contactos
+                    y mensajes.
+                </li>
+                <li>
+                    <b>3. ⏳ Retrasos Aleatorios:</b>
+                    Implementa tiempos de espera aleatorios entre el envío de mensajes, evitando bloqueos por parte de
+                    WhatsApp y haciendo que la comunicación parezca más natural.
+                </li>
+                <li>
+                    <b>4. 🔄 Generación de Código QR:</b>
+                    Genera un código QR para facilitar la conexión y autenticación del cliente de WhatsApp.
+                </li>
+                <li>
+                    <b>5. 📩 Mensajes Personalizados:</b>
+                    Permite crear mensajes personalizados utilizando datos específicos de cada contacto, mejorando la
+                    interacción con los usuarios.
+                </li>
+                <li>
+                    <b>6. 🔔 Escucha de Mensajes Entrantes:</b>
+                    Capacidad para escuchar y responder automáticamente a mensajes entrantes, como comandos específicos,
+                    mejorando la interactividad.
+                </li>
+                <li>
+                    <b>7. 🚀 Modo Headless:</b>
+                    Funciona en modo headless (sin interfaz gráfica), lo que permite ejecutar el software en servidores
+                    o entornos sin pantalla.
+                </li>
+                <li>
+                    <b>8. 🛠️ Manejo de Errores:</b>
+                    Incluye manejo de errores para asegurar que los problemas en el envío de mensajes sean registrados y
+                    gestionados adecuadamente.
+                </li>
+                <li>
+                    <b>9. ▶️ Ver Video Tutorial:</b>
+                    <span class="video-link" onclick="openPopup3()">Modo de Uso y de instalación.</span>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div class="popup-container" id="videoPopup">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <iframe id="youtubeVideo" src="" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+        <div class="product-cardcuatro" id="toolcuatro">
+            <h3>Posicionador de Videos para YouTube</h3>
+            <img src="img4.jpg" alt="optimización-youtube">
+            <h5>Características del software:</h5>
+            <ul>
+                <li>
+                    <b>1. 🎯 Optimización Automática:</b>
+                    El software optimiza tus videos automáticamente para maximizar su alcance y visibilidad en plataformas como YouTube.
+                </li>
+                <li>
+                    <b>2. 🧩 Palabras Clave Inteligentes:</b>
+                    Te ayuda a encontrar las mejores palabras clave para tu video, asegurando que tu contenido sea encontrado por más personas.
+                </li>
+                <li>
+                    <b>3. ⚡ Crecimiento Rápido:</b>
+                    Aumenta la visibilidad de tus videos rápidamente mediante el uso de técnicas avanzadas de SEO.
+                </li>
+                <li>
+                    <b>4. 🛠 Fácil de Usar:</b>
+                    Con una interfaz amigable, es fácil de usar incluso para quienes no tienen experiencia en marketing digital.
+                </li>
+                <li>
+                    <b>5. 🕵️‍♂️ Análisis Competitivo:</b>
+                    Permite analizar a la competencia para descubrir sus estrategias y mejorar las propias.
+                </li>
+                <li>
+                    <b>6. 📈 Informe de Resultados:</b>
+                    Proporciona reportes detallados sobre el rendimiento de tus videos, lo que te permite ajustar tu estrategia.
+                </li>
+                <li>
+                    <b>7. 🔄 Actualización Constante:</b>
+                    Se actualiza regularmente para adaptarse a los cambios del algoritmo de YouTube y las nuevas tendencias del mercado.
+                </li>
+                <li>
+                    <b>8. ▶️ Ver Video Tutorial:</b>
+                    <span class="video-link" onclick="openPopup4()">Modo de Uso y de instalación.</span>
+                </li>
+            </ul>
+        </div>
+        
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
